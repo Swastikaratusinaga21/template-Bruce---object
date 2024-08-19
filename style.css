@@ -1,0 +1,847 @@
+/*
+Color Palette
+Text :
+h4 :
+h3 : 
+h2 : #273272
+button : #172541
+text mini :  #172541
+text red :`
+*/
+
+body {
+  margin: 0;
+  font-family: "Merriweather";
+}
+
+p {
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+/*Pembungkus Seluruh Konten*/
+.container {
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+/*Header pertama*/
+
+.header-wrap {
+  background-color: #172541;
+}
+
+.header.cf {
+  height: 58px;
+  background-color: #172541;
+  margin: 0;
+  display: flex;
+  padding: 0 10px;
+  box-sizing: border-box;
+  width: 1200px;
+  margin: auto;
+}
+
+/*mengatur text yang ada di dalam div header*/
+.header.cf .head-satu,
+.header.cf .head-login,
+.header.cf .head-lang {
+  width: 400px;
+  height: 55px;
+  margin: 0 auto;
+  line-height: 58px;
+  color: #ffffff;
+}
+
+/*Mengatur link yang ada di header*/
+.header.cf .head-satu a,
+.header.cf .head-login a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/*Mengatur hover link yang ada pada header*/
+.header.cf .head-satu a:hover,
+.header.cf .head-login a:hover {
+  color: #ff5353;
+}
+
+.header.cf .head-login {
+  text-align: center;
+}
+
+.header.cf .head-lang {
+  text-align: right;
+}
+
+/*Header, navigasi*/
+
+/*.wrap-navigasi {
+  height: 60px;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px #726b6b;
+  margin: auto;
+}*/
+
+.hero {
+  background-color: #ffffff;
+  background-image: url(img/home-corporate-bg-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  position: relative;
+  background-position: center;
+}
+
+.wrap-navigasi {
+  background-color: #fff;
+  display: flex;
+  position: sticky;
+  z-index: 100000000;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.navigasi.cf {
+  height: 90px;
+  width: 1200px;
+  margin: auto;
+  /* top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1000;
+  position: sticky; */
+}
+
+/*Navigasi image brand*/
+
+.navigasi.cf .nav-img {
+  background-image: url(img/dark-logo.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  margin: 0 20px;
+  width: 400px;
+  height: 90px;
+  float: left;
+  text-align: right;
+}
+
+.navigasi.cf .nav-item {
+  word-spacing: 30px;
+  line-height: 90px;
+  margin-right: 20px;
+  float: right;
+}
+
+.navigasi.cf .nav-item a,
+.navigasi.cf .nav-item a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navigasi.cf .nav-item a:hover {
+  color: #172541;
+}
+
+.navigasi.cf .nav-item a:active {
+  color: #ffffff;
+  font-weight: bolder;
+  background-color: #273272;
+}
+
+/*
+.navigasi .nav-item a:target {
+  background-color: pink;
+  color: #ff000d;
+}*/
+
+/*Content pembungkus image dan teks pertama*/
+.hero-content {
+  height: 700px;
+  margin: 10px auto;
+  margin-top: -10px;
+  position: relative;
+}
+
+/*Konten utama, gambar fullscreen. coover*/
+.hero-content-main {
+  height: 660px;
+}
+
+/*Teks di kiri*/
+.hero-content-left {
+  width: 1200px;
+  height: 660px;
+  box-sizing: border-box;
+  padding: 120px 0 0 20px;
+  margin: auto;
+}
+
+.hero-content-left h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.hero-content-left h1 {
+  color: #273272;
+  margin-top: 0;
+  font-size: 50px;
+}
+
+.hero-content-left .button,
+.hero-content-left .button a {
+  background-color: #273272;
+  width: 150px;
+  height: 60px;
+  box-sizing: border-box;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+  font-size: 18px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.hero-content-left .button a {
+  background-color: transparent;
+}
+
+.content {
+  width: 1200px;
+  margin: auto;
+}
+
+.about.cf .about-text .button-start:hover,
+.hero-content-left .button:hover,
+.hero-content-left .button a:hover,
+.our-service.cf .our-service-satu .button-detail:hover,
+.our-service.cf .our-service-satu .button-detail a:hover {
+  background-color: #f3525a;
+  color: #fff;
+  transform: translateY(-3px);
+  animation: 1s;
+  animation-delay: 5ms;
+}
+
+/*Call button after hero image*/
+/*.call {
+  background-color: #273272;
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  transform: translateX(800px) translateY(30px);
+  cursor: pointer;
+  position: relative;
+}*/
+
+.call {
+  background-color: #273272;
+  width: 200px;
+  height: 50px;
+  border-radius: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  right: 90px;
+  left: auto;
+  position: absolute;
+  bottom: -40px;
+  cursor: pointer;
+}
+
+.call img {
+  width: 30px;
+  height: 31px;
+  margin: 0 15px 0 10px;
+}
+
+.call p {
+  font-size: 18px;
+  color: #fff;
+}
+
+/*3 Tabel, bar pertama*/
+.home-bar.cf {
+  box-sizing: border-box;
+  margin: 100px 0 100px 0;
+}
+
+/* bar pertama, 3 box*/
+.home-bar.cf .home-bar2 {
+  width: 380px;
+  height: 230px;
+  background-color: #fff;
+  float: left;
+  box-sizing: border-box;
+  padding: 20px 35px;
+  box-shadow: 1px 1px 30px rgb(217, 217, 239);
+  cursor: pointer;
+}
+
+.home-bar.cf .home-bar1,
+.home-bar.cf .home-bar3 {
+  width: 350px;
+  height: 200px;
+  float: left;
+  box-sizing: border-box;
+  margin: 30px 15px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.home-bar.cf .home-bar2 h2,
+.home-bar.cf .home-bar1 h2,
+.home-bar.cf .home-bar3 h2 {
+  color: #273272;
+}
+
+.home-bar.cf .home-bar2 p,
+.home-bar.cf .home-bar1 p,
+.home-bar.cf .home-bar3 p {
+  color: #172541;
+}
+/*_____________________________________________________________________________*/
+
+/*Content About us*/
+
+.about.cf {
+  height: 500px;
+  margin: 30px 0;
+  box-sizing: border-box;
+  padding-left: 20px;
+}
+
+/**/
+.about.cf .about-img {
+  width: 450px;
+  height: 500px;
+  background-image: url(img/about.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  float: left;
+}
+
+.about.cf .about-text {
+  width: 700px;
+  height: 500px;
+  float: right;
+  box-sizing: border-box;
+  padding: 20px 20px 20px 60px;
+}
+
+.about.cf .about-text .button-start {
+  background-color: #273272;
+  width: 100px;
+  height: 50px;
+  color: #fff;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 13px;
+  margin: 40px 0;
+}
+
+.about.cf .about-text h4 {
+  color: #f3525a;
+  margin-bottom: 0;
+  letter-spacing: 3px;
+  font-size: 12px;
+}
+
+.about.cf .about-text h2 {
+  color: #273272;
+  font-size: 40px;
+  margin-top: 0;
+}
+
+.about.cf .about-text h3 {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.about.cf .about-text p {
+  font-weight: lighter;
+  color: #172541;
+}
+
+/*_____________________________________________________________________________*/
+
+/*Our Services*/
+.our-service.cf {
+  height: 700px;
+  margin: 100px 0 100px 0px;
+  z-index: 101;
+  display: flex;
+}
+
+/*
+.our-service.cf .our-service-bg {
+  height: 700px;
+  background-image: url(img/bussiness-people.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.1;
+  filter: saturate(0%) brightness(100%) grayscale(1000%);
+  z-index: 102;
+  position: absolute;
+}*/
+
+.our-service.cf .our-service-bg {
+  height: 700px;
+  width: 100%;
+  background-image: url(img/service-bg-01.jpg);
+  z-index: 102;
+  position: absolute;
+}
+
+.our-service.cf .our-service-satu {
+  width: 300px;
+  height: 700px;
+  z-index: 103;
+  margin-left: 20px;
+  box-sizing: border-box;
+  padding-top: 120px;
+}
+
+.our-service.cf .our-service-satu h4 {
+  color: #f3525a;
+  font-size: 12px;
+}
+
+.our-service.cf .our-service-satu h2 {
+  color: #000066;
+  font-size: 35px;
+  margin-top: 0;
+}
+
+.our-service.cf .our-service-satu .button-detail {
+  background-color: #273272;
+  width: 150px;
+  height: 50px;
+  padding: 15px;
+  box-sizing: border-box;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.our-service.cf .our-service-satu .button-detail a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.our-service.cf .our-service-dua {
+  width: 800px;
+  height: 700px;
+  z-index: 103;
+  box-sizing: border-box;
+}
+
+.our-service.cf .our-service-dua .our-service-dua-kotak {
+  height: 300px;
+  width: 258px;
+  float: left;
+  margin: 25px 0 0 8px;
+  box-sizing: border-box;
+  padding: 40px 10px 0 20px;
+}
+
+.our-service.cf .our-service-dua .our-service-dua-kotak h2 {
+  color: #000066;
+  font-size: 20px;
+}
+
+/*___________________________________________________________________________*/
+.peminat-bisnis.cf {
+  height: 150px;
+  padding-left: 60px;
+  margin: auto;
+}
+.peminat-bisnis.cf .peminat-bisnis-angka {
+  width: 225px;
+  height: 150px;
+  float: left;
+  box-sizing: border-box;
+}
+
+.peminat-bisnis.cf .peminat-bisnis-angka h2 {
+  color: #000066;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.peminat-bisnis.cf .peminat-bisnis-angka p {
+  color: #000066;
+  margin-top: 0;
+  font-weight: bolder;
+}
+
+/*_________________________________________________________________________________*/
+
+.why-choose-us.cf {
+  height: 500px;
+  margin: 100px 0;
+}
+
+.why-choose-us.cf .why-choose-us-img {
+  width: 400px;
+  height: 500px;
+  background-image: url(img/choose-us.png);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  float: left;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.why-choose-us.cf .why-choose-us-text {
+  width: 700px;
+  height: 500px;
+  margin-right: 30px;
+  float: right;
+  box-sizing: border-box;
+  padding-left: 50px;
+}
+
+.why-choose-us.cf .why-choose-us-text .list-check {
+  display: flex;
+}
+
+.why-choose-us.cf .why-choose-us-text .list-check img {
+  width: 26px;
+  height: 26px;
+  padding-right: 20px;
+  margin-top: 15px;
+}
+
+.why-choose-us.cf .why-choose-us-text h4 {
+  color: #f3525a;
+  font-size: 12px;
+  font-weight: lighter;
+  margin-bottom: 0;
+}
+
+.why-choose-us.cf .why-choose-us-text h2 {
+  color: #000066;
+  font-size: 30px;
+  margin-top: 0;
+}
+
+.why-choose-us.cf .why-choose-us-text .list-check .text h3 {
+  font-weight: 500;
+}
+
+/*______________________________________________________________________________*/
+
+/*Contact*/
+.contact.cf {
+  box-sizing: content-box;
+  height: 200px;
+  margin: 100px 20px 100px 20px;
+  z-index: 101;
+}
+
+.contact.cf .contact-bg {
+  width: 1000px;
+  height: 200px;
+  background-image: url(img/call-to-action-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 0.1;
+  filter: saturate(0%) brightness(100%) grayscale(1000%);
+  z-index: 102;
+  position: absolute;
+}
+
+.contact.cf .contact-text {
+  height: 200px;
+  z-index: 103;
+  box-sizing: border-box;
+  text-align: center;
+  background-color: #163369;
+}
+
+.contact.cf .contact-text .text-kiri {
+  width: 500px;
+  height: 200px;
+  float: left;
+  margin: auto;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.contact.cf .contact-text .text-kiri h2 {
+  font-size: 35px;
+  color: #fff;
+}
+
+.contact.cf .contact-text .text-kiri h3 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.contact.cf .contact-text .text-kanan {
+  width: 400px;
+  height: 200px;
+  float: right;
+  color: #fff;
+  margin: auto;
+}
+
+.contact.cf .contact-text .text-kanan h2 {
+  font-size: 40px;
+}
+
+.contact.cf .text-kanan .button-contact-us {
+  background-color: #ff000d;
+  width: 150px;
+  height: 50px;
+  margin: auto;
+  text-align: center;
+  line-height: 50px;
+}
+
+/*_______________________________________________________________________________________*/
+
+.horizontal-scroll {
+  overflow-x: scroll;
+  scrollbar-color: transparent transparent;
+  margin-left: 20px;
+}
+.horizontal-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.bar4 {
+  height: 250px;
+  width: max-content;
+  display: flex;
+  gap: 4rem;
+  padding: 0 20px;
+}
+.bar4 .bar4-quote {
+  width: 350px;
+  height: 230px;
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  box-sizing: border-box;
+  margin: auto;
+  text-align: center;
+  box-shadow: 1px 1px 10px rgb(217, 217, 239);
+}
+
+.bar4 .bar4-quote img {
+  width: 20px;
+}
+
+.bar4 .bar4-quote h3 {
+  color: #273272;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+/*___________________________________________________________________________*/
+
+/*content 5*/
+.content5.cf {
+  height: 640px;
+  margin: 100px auto;
+  margin-left: 20px;
+}
+
+.content5.cf .content5-bar {
+  background-color: rgb(255, 255, 255);
+  width: 360px;
+  height: 600px;
+  float: left;
+  margin: 20px 15px 20px 17px;
+  box-shadow: 1px 1px 10px rgb(204, 203, 218);
+}
+
+.content5.cf .content5-bar .bar-img1,
+.content5.cf .content5-bar .bar-img2,
+.content5.cf .content5-bar .bar-img3 {
+  background-color: #b0b0fe;
+  width: 360px;
+  height: 280px;
+  background-repeat: no-repeat;
+}
+
+.content5.cf .content5-bar .bar-img1 {
+  background-image: url(img/blog1.png);
+}
+.content5.cf .content5-bar .bar-img2 {
+  background-image: url(img/blog-2.png);
+}
+.content5.cf .content5-bar .bar-img3 {
+  background-image: url(img/blog-3.png);
+}
+
+.content5.cf .content5-bar .bar-text {
+  padding: 20px;
+}
+
+.content5.cf .content5-bar .bar-text h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #273272;
+}
+
+.content5.cf .content5-bar .bar-text a {
+  text-decoration: none;
+  color: #273272;
+}
+
+.content5.cf .content5-bar .bar-text a:visited {
+  color: #273272;
+}
+
+.content5.cf .content5-bar .bar-text a:hover {
+  color: #f3525a;
+}
+
+/*___________________________________________________________________________________*/
+
+/*footer*/
+
+.footer-wrap {
+  background-color: #172541;
+  height: 600px;
+}
+
+.footer-wrap .footer.cf {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  padding-left: 20px;
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+
+.footer.cf .bruce,
+.footer.cf .links,
+.footer.cf .contact-info {
+  width: 400px;
+  height: 600px;
+  margin: 0 3px;
+  color: #fff;
+  padding: 100px 20px;
+  box-sizing: border-box;
+}
+
+.footer.cf .bruce img {
+  margin-bottom: 20px;
+}
+
+.footer.cf .bruce .subscribe input {
+  width: 180px;
+  height: 33px;
+  background-color: #ffffffb0;
+  border: none;
+  color: #fff;
+  font-family: "Merriweather";
+  padding-left: 10px;
+}
+
+.footer.cf .bruce .subscribe .subscribe-btn {
+  width: 80px;
+  height: 35px;
+  margin-left: -5px;
+  background-color: #e6e6e6;
+  border: none;
+  cursor: pointer;
+  font-family: "Merriweather";
+  color: #172541;
+}
+
+.footer.cf .bruce .subscribe .subscribe-btn:hover {
+  background-color: #f3525a;
+  color: #fff;
+}
+
+.footer.cf .bruce .sosial-media {
+  margin-top: 25px;
+}
+
+.footer.cf .bruce .sosial-media img {
+  width: 20px;
+  padding-right: 20px;
+}
+
+.footer.cf .links .links1 {
+  width: 140px;
+  height: 500px;
+  float: left;
+}
+
+.footer.cf .links .links2 {
+  width: 140px;
+  height: 500px;
+  float: right;
+}
+
+.footer.cf .links .links1 a,
+.footer.cf .links .links2 a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer.cf .links .links1 p:hover,
+.footer.cf .links .links2 p:hover {
+  color: #f3525a;
+  cursor: pointer;
+}
+
+.footer.cf .links .links1 a:visited,
+.footer.cf .links .links2 a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer.cf .links .links1 p::before,
+.footer.cf .links .links2 p::before {
+  content: " >> ";
+}
+
+.footer.cf .contact-info p a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer.cf .contact-info p a:hover {
+  color: #f3525a;
+}
+
+.container .copyright {
+  background-color: #ffffff;
+  height: 60px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 60px;
+}
+
+/*clear float*/
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
